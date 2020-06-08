@@ -27,31 +27,36 @@
 ## Aula 02
 #### Operações matemáticas
 
-
-    ``` var x = 10, y = 5; ```
+```
+     var x = 10, y = 5;
+```
 
     ** Também posso fazer **
 ```
      x += 3; 
 
-     x *= y; ```
+     x *= y;
+```
 
     ** Posso multiplicar também por outras variáveis **
 
 ```
      x = x + 3; 
 
-    console.log(x); ```
+    console.log(x);
+```
     ** Como incrementar o valor de X com o número 3 **
 
 
     ** Operação matemática **
 
-    ``` var x = 10, y = 5;
+```
+      var x = 10, y = 5;
 
       var resultado = x + y;
 
-      console.log(resultado); ```
+      console.log(resultado);
+```
     ** Não podemos somar uma string com um número **
 
     ** Se eu fizer isso ele irá cocatenar minha string fazendo o valor se tornar 105 ao invés de somar **

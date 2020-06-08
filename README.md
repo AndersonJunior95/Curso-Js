@@ -26,30 +26,26 @@
 
 ## Aula 02
 #### Operações matemáticas
-
 ```
      var x = 10, y = 5;
 ```
 
-    ** Também posso fazer **
+    **Também posso fazer**
 ```
      x += 3; 
 
      x *= y;
 ```
-
-    ** Posso multiplicar também por outras variáveis **
-
+    **Posso multiplicar também por outras variáveis**
 ```
      x = x + 3; 
 
     console.log(x);
 ```
-    ** Como incrementar o valor de X com o número 3 **
+    **Como incrementar o valor de X com o número 3**
 
 
-    ** Operação matemática **
-
+    **Operação matemática**
 ```
       var x = 10, y = 5;
 
@@ -57,8 +53,8 @@
 
       console.log(resultado);
 ```
-    ** Não podemos somar uma string com um número **
+    **Não podemos somar uma string com um número**
 
-    ** Se eu fizer isso ele irá cocatenar minha string fazendo o valor se tornar 105 ao invés de somar **
+    **Se eu fizer isso ele irá cocatenar minha string fazendo o valor se tornar 105 ao invés de somar**
 
-    ** Consigo fazer Multiplicação, Divisão, Soma, Substração e consigo fazer a operação de módulo que retorna o resto de uma divisão **
+    **Consigo fazer Multiplicação, Divisão, Soma, Substração e consigo fazer a operação de módulo que retorna o resto de uma divisão**

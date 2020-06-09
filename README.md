@@ -30,62 +30,56 @@
      var x = 10, y = 5;
 ```
 
-    **Também posso fazer**
+###### Também posso fazer
 ```
      x += 3; 
 
-<<<<<<< HEAD
-    ``` var x = 10, y = 5; ```
+     var x = 10, y = 5; 
+```
 
-    ###### Também posso fazer 
+###### Também posso fazer 
 
-    ``` x += 3; ```
+    ``` x += 3; 
 
-    ``` x *= y; ```
+     x *= y; 
+    ```
 
-    ###### Posso multiplicar também por outras variáveis 
+###### Posso multiplicar também por outras variáveis 
 
 
-    ``` x = x + 3; ```
+    ``` x = x + 3;
 
-    ``` console.log(x); ```
-    ###### Como incrementar o valor de X com o número 3
-=======
+    console.log(x); 
+    ```
+###### Como incrementar o valor de X com o número 3
+```
      x *= y;
 ```
-    ######Posso multiplicar também por outras variáveis
+###### Posso multiplicar também por outras variáveis
 ```
      x = x + 3; 
->>>>>>> 41c736691656c8f010eafb7b074864fee9b80823
 
     console.log(x);
 ```
-    ######Como incrementar o valor de X com o número 3
+###### Como incrementar o valor de X com o número 3
 
-<<<<<<< HEAD
-    ###### Operação matemática 
-=======
->>>>>>> 41c736691656c8f010eafb7b074864fee9b80823
 
-    ######Operação matemática
+###### Operação matemática 
 ```
       var x = 10, y = 5;
 
       var resultado = x + y;
 
-<<<<<<< HEAD
-    ``` console.log(resultado); ```
-    ###### Não podemos somar uma string com um número 
-
-    ###### Se eu fizer isso ele irá cocatenar minha string fazendo o valor se tornar 105 ao invés de somar 
-
-    ###### Consigo fazer Multiplicação, Divisão, Soma, Substração e consigo fazer a operação de módulo que retorna o resto de uma divisão 
-=======
-      console.log(resultado);
+     console.log(resultado); 
 ```
-    ######Não podemos somar uma string com um número
+###### Não podemos somar uma string com um número 
 
-    ######Se eu fizer isso ele irá cocatenar minha string fazendo o valor se tornar 105 ao invés de somar
+###### Se eu fizer isso ele irá cocatenar minha string fazendo o valor se tornar 105 ao invés de somar 
 
-    ######Consigo fazer Multiplicação, Divisão, Soma, Substração e consigo fazer a operação de módulo que retorna o resto de uma divisão
->>>>>>> 41c736691656c8f010eafb7b074864fee9b80823
+###### Consigo fazer Multiplicação, Divisão, Soma, Substração e consigo fazer a operação de módulo que retorna o resto de uma divisão 
+
+######  Não podemos somar uma string com um número
+
+######  Se eu fizer isso ele irá cocatenar minha string fazendo o valor se tornar 105 ao invés de somar
+
+######  Consigo fazer Multiplicação, Divisão, Soma, Substração e consigo fazer a operação de módulo que retorna o resto de uma divisão

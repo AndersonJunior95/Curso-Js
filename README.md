@@ -84,11 +84,10 @@
 
 #####  Se eu fizer isso ele irá cocatenar minha string fazendo o valor se tornar 105 ao invés de somar
 
-#####  Consigo fazer Multiplicação, Divisão, Soma, Substração e consigo fazer a operação de módulo que retorna o resto de uma divisão
-
 ##### Como criar funções
 
 ## Aula 03
+###  Operações matemáticas
 
 ```
 function soma(numero1, numero2){
@@ -103,6 +102,7 @@ function soma(numero1, numero2){
 ```
 
 ## Aula 04
+### Condicionais
 
 ##### Se tiver dois '==' ele verifica se os valores são iguais 
 ### Exemplo de verificação: 
@@ -151,6 +151,7 @@ function soma(numero1, numero2){
 #### Acima: Então basicamente o que eu aprendi nessa aula foi fazer uma estrutura um condicional simples ultilizando o IF o ELSEIF e também o ELSE e ultilizar o switch case quando a gente precisa verificar a igualdade de valores de uma mesma variavel multiplas vezes
 
 ## Aula 05
+### Operadores lógicos
 
 ```
     // AND, OR, NOT

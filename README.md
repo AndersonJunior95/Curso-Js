@@ -407,3 +407,57 @@ O Gabriel possui as habilidades: VueJS, Ruby on Rails, Elixir
             console.log('O ' + usuario.nome + ' possui as habilidades: ' + usuario.habilidades.join(", "));
     }
 ```
+
+# ===================================
+
+# Manipulando a DOM
+
+# AULA 01
+
+## Eventos inline
+
+### DOM é a árvore de elementos do nosso HTML a DOM é composta por todos os elementos visualmente dispostos em tela então basicamente é isso que o Javascript vai poder controlar vamos poder por exemplo manipular quando um elemento é clicado quando alguma informação é passado o mouse por cima e assim por diante a gente consegue fazer várias coisas manipulando esses elementos da DOM como descobrir quando um úsuario clickou ou não um botão ou quando passou o mouse por cima isso não vale só para botão esses eventos que a gente vai aplicar no Mobal em sí eles podem ser ultilizados em qualquer outro elemento da DOM qualquer outro elemento HTML
+
+```
+    <div id="app">
+        <input onkeypress="mostraAlerta()" />
+    </div>
+
+    <script>
+        function mostraAlerta() {
+            alert('Botão foi clicado');
+        }
+    </script>
+```
+
+## Trabalhando com a DOM
+
+# AULA 02
+
+### Como buscar um função na nossa árvore de elementos atraves do nosso script
+
+```
+    <div id="app">
+        <input type="text" name="nome" />
+        <button class="botao">Adicionar</button>
+    </div>
+
+    <script>
+       var inputElement = document.querySelector('input[name=nome]')
+
+       var btnElement = document.querySelector('button.botao');
+
+
+        btnElement.onclick = function () {
+            var text = inputElement.value;
+
+            alert(text);
+        }
+    </script>
+```
+
+## Lidando com elementos
+
+# Aula 03
+
+

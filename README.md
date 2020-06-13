@@ -460,4 +460,32 @@ O Gabriel possui as habilidades: VueJS, Ruby on Rails, Elixir
 
 # Aula 03
 
+## Além da gente poder referênciar elementos da nossa DOM atráves do Javascript a gente pode criar novos elementos atráves do Javascript
+
+```
+    <div id="app">
+        <input id='nome' />
+    </div>
+
+    <script>
+        var linkElement = document.createElement('a')
+
+        linkElement.setAttribute('href', 'http://rocketseat.com.br');
+
+        linkElement.setAttribute('title', 'Site da Rocketseat');
+
+
+        var textElement = document.createTextNode('Acessar site da Rocketseat');
+
+        linkElement.appendChild(textElement);
+
+        var containerElement = document.querySelector('#app')
+
+        containerElement.appendChild(linkElement);
+
+        var inputElement = document.querySelector('#nome')
+
+        containerElement.removeChild(inputElement)
+    </script>
+```
 
